@@ -1,5 +1,9 @@
 const HomeScreen = () => {
-    return <div></div>;
+    return (
+        <div>
+            <h1 className="bold bg-black">This is the Home Screen</h1>
+        </div>
+    );
 };
 
 export default HomeScreen;

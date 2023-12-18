@@ -1,5 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomeScreen from "./pages/HomeScreen/HomeScreen";
+
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <h1>Hi</h1>,
+    },
+]);
 
 const App = () => {
     return (
@@ -8,12 +14,5 @@ const App = () => {
         </>
     );
 };
-
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <HomeScreen />,
-    },
-]);
 
 export default App;
