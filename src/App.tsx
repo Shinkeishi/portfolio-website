@@ -10,10 +10,10 @@ const router = createBrowserRouter([
 
 const App = () => {
     return (
-        <div className="bg-gray-800 absolute text-white font-inconsolata">
-            <div className="navbar bg-base-100">
+        <div className="bg-gray-800 text-white font-inconsolata">
+            <div className="navbar bg-gray-800">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">ashleyTan</a>
+                    <a className="btn btn-ghost text-xl">A.T.</a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
