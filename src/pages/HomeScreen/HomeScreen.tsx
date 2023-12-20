@@ -23,7 +23,7 @@ const HomeScreen = () => {
     return (
         <>
             <section>
-                <div className="flex justify-between items-center mt-[260px] mb-[500px] ml-[20px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
+                <div className="flex justify-between items-center mt-[260px] mb-[500px] ml-[30px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
                     <div>
                         <span id="typed">Hi, I'm Ashley</span>
                         <br></br>
@@ -64,19 +64,31 @@ const HomeScreen = () => {
                             </svg>
                         </div>
                         <div className="timeline-start md:text-end mb-10">
-                            <time className="font-mono italic">
-                                Aug 2023 - current
-                            </time>
-                            <div className="text-lg font-black">
-                                SMU .Hack - Professional Development Director
+                            <div className="flex flex-col justify-center items-end">
+                                <img
+                                    className="h-[100px] flex-grow-0 object-contain m-3"
+                                    src="src/assets/dothack_transbg.png"
+                                ></img>
+                                <div className="text-[28px] font-black">
+                                    Professional Development Director - SMU
+                                    .Hack
+                                </div>
                             </div>
-                            I source for professional development opportunities
-                            such as networking sessions, software development
-                            programmes for our .Hack members. In particular, I
-                            am in-charge of HEAP (.Hack Enrichment Application
-                            Programme) which is .Hack's flagship 12-week summer
-                            event. As Director, I also oversee my executives
-                            under me and ensure our department runs smoothly.
+                            <div className="text-[23px] font-semibold">
+                                Aug 2023 - current
+                            </div>
+                            <div className="text-[18px] text-end mt-2">
+                                SMU .Hack is a software engineering CCA at
+                                Singapore Management University. I specialize in
+                                sourcing and organizing growth opportunities,
+                                including networking events and software
+                                development programs for our members. A key
+                                responsibility of mine is leading the HEAP
+                                (.Hack Enrichment Application Programme), our
+                                flagship 12-week summer event. In this role, I
+                                oversee the execution of the program and manage
+                                a team of executives.
+                            </div>
                         </div>
                         <hr />
                     </li>
@@ -97,16 +109,62 @@ const HomeScreen = () => {
                             </svg>
                         </div>
                         <div className="timeline-end mb-10">
-                            <time className="font-mono italic">
-                                Sept 2023 - current
-                            </time>
-                            <div className="text-lg font-black">
-                                SMU Patron's Day 2024 - Web Tech Associate
+                            <div className="flex flex-col justify-center items-start">
+                                {/* <img
+                                    className="h-[100px] flex-grow-0 object-contain m-3"
+                                    src="src/assets/dothack_transbg.png"
+                                ></img> */}
+                                <div className="text-[28px] font-black">
+                                    Web Tech Associate - Patron's Day 2024
+                                </div>
                             </div>
-                            SMU Patron's Day is an annual event to celebrate
-                            SMU's anniversary. I am involved in designing the
-                            PD'24 website and liaising with the other PD
-                            departments and the school's IT department.
+                            <div className="text-[23px] font-semibold">
+                                Sept 2023 - current
+                            </div>
+                            <div className="text-[18px] text-start mt-2">
+                                SMU Patron's Day is an annual event to celebrate
+                                SMU's anniversary. I am involved in designing
+                                the PD'24 website and liaising with the other PD
+                                departments and the school's IT department.
+                            </div>
+                        </div>
+                        <hr />
+                    </li>
+                    <li>
+                        <div className="timeline-middle">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                className="h-5 w-5"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                        </div>
+                        <div className="timeline-start md:text-end mb-10">
+                            <div className="flex flex-col justify-center items-end">
+                                <img
+                                    className="h-[100px] flex-grow-0 object-contain m-3"
+                                    src="src/assets/dothack_transbg.png"
+                                ></img>
+                                <div className="text-[28px] font-black">
+                                    Corporate Relations Director - Metamorphosis
+                                    2023
+                                </div>
+                            </div>
+                            <div className="text-[23px] font-semibold">
+                                Aug 2023 - current
+                            </div>
+                            <div className="text-[18px] text-end mt-2">
+                                Metamorphosis is SMU's School of Computing and
+                                Information Systems (SCIS) inaugural orientation
+                                camp. I source for camp sponsors and liaise with
+                                external parties.
+                            </div>
                         </div>
                         <hr />
                     </li>
@@ -114,11 +172,12 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <div className="mt-[500px] mb-[10px] ml-[20px] text-white font-black text-5xl text-center">
+                <div className="mt-[500px] ml-[20px] text-white text-5xl text-center">
                     View my projects here!
                 </div>
+                <div className=""></div>
                 <div className="flex justify-center items-center">
-                    <div className="carousel carousel-center max-w-5xl p-4 space-x-4 bg-neutral rounded-box m-5 mb-[50px]">
+                    <div className="carousel carousel-center max-w-5xl p-4 space-x-4 rounded-box m-[75px]">
                         <div className="carousel-item">
                             <img
                                 src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
@@ -164,6 +223,12 @@ const HomeScreen = () => {
                     </div>
                 </div>
             </section>
+            {/* <section>
+                <div className="m-[50px] text-center text-[30px]">
+                    I am always open to new opportunities to improve myself in
+                    the software engineering field. Drop your contact here!
+                </div>
+            </section> */}
         </>
     );
 };
