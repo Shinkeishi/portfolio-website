@@ -23,7 +23,7 @@ const HomeScreen = () => {
     return (
         <>
             <section>
-                <div className="flex justify-between items-center mt-[300px] mb-[500px] ml-[20px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
+                <div className="flex justify-between items-center mt-[260px] mb-[500px] ml-[20px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
                     <div>
                         <span id="typed">Hi, I'm Ashley</span>
                         <br></br>
@@ -36,10 +36,10 @@ const HomeScreen = () => {
 
             <section>
                 <iframe
-                    width="600"
+                    width="580"
                     height="300"
                     src="https://lottie.host/embed/062e6d15-f8c5-4f5d-a84f-4e68ee1185be/zbtVWL5oKY.json"
-                    className="m-[100px] rounded"
+                    className="m-[80px] rounded"
                 ></iframe>
             </section>
 
