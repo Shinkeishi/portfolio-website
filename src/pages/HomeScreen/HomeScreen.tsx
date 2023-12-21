@@ -46,19 +46,21 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <iframe
-                    width="580"
-                    height="300"
-                    src="https://lottie.host/embed/062e6d15-f8c5-4f5d-a84f-4e68ee1185be/zbtVWL5oKY.json"
-                    className="m-[80px] rounded"
-                ></iframe>
+                <div className="my-[500px]">
+                    <iframe
+                        width="580"
+                        height="300"
+                        src="https://lottie.host/embed/062e6d15-f8c5-4f5d-a84f-4e68ee1185be/zbtVWL5oKY.json"
+                        className="m-[80px] rounded"
+                    ></iframe>
+                </div>
             </section>
 
             <section>
                 <div className="mt-[500px] mb-[10px] ml-[30px] text-white font-black text-5xl">
                     My Experiences
                 </div>
-                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-[50px] mb-[50px]">
+                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-[50px] mb-[500px]">
                     <li>
                         <div className="timeline-middle">
                             <svg
@@ -183,7 +185,7 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <div className="mt-[500px] mb-[100px] mx-[30px]">
+                <div className="mt-[500px] mb-[500px] mx-[30px]">
                     <div className="text-white font-black text-5xl">
                         My Skills
                     </div>
@@ -260,7 +262,7 @@ const HomeScreen = () => {
                 </div>
                 <button
                     onClick={handleClick}
-                    className="btn btn-neutral btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg block mx-auto my-[20px]"
+                    className="btn btn-neutral btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg block mx-auto mt-[20px] mb-[200px]"
                 >
                     View all projects here
                 </button>
