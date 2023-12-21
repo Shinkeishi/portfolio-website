@@ -1,7 +1,18 @@
 import Typed from "typed.js";
 import { useEffect } from "react";
+import { useNavigate } from "react-router";
 
 const HomeScreen = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        // if(localStorage.getItem("token") != null) {
+        //   navigate("/centralhub");
+        // } else {
+        navigate("/projects");
+        // }
+    };
+
     useEffect(() => {
         // Options for typed.js
         const options = {
@@ -44,7 +55,7 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <div className="mt-[500px] mb-[10px] ml-[20px] text-white font-black text-5xl">
+                <div className="mt-[500px] mb-[10px] ml-[30px] text-white font-black text-5xl">
                     My Experiences
                 </div>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-[50px] mb-[50px]">
@@ -157,7 +168,7 @@ const HomeScreen = () => {
                                 </div>
                             </div>
                             <div className="text-[23px] font-semibold">
-                                Aug 2023 - current
+                                Feb 2023 - August 2023
                             </div>
                             <div className="text-[18px] text-end mt-2">
                                 Metamorphosis is SMU's School of Computing and
@@ -172,12 +183,37 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <div className="mt-[500px] ml-[20px] text-white text-5xl text-center">
-                    View my projects here!
+                <div className="mt-[500px] mb-[100px] mx-[30px]">
+                    <div className="text-white font-black text-5xl">
+                        My Skills
+                    </div>
+                    <div className="text-[18px] text-start mt-2">
+                        I am constantly finding ways to upskill myself with
+                        certifications, projects and new technologies. I'm
+                        currently on the road to obtaining my AWS SAA cert!
+                    </div>
+                    <div className="text-white font-black text-3xl mt-3">
+                        Certifications:
+                    </div>
+                    <div className="text-[18px] text-start mt-2">
+                        <ul>
+                            <li>- AWS Cloud Practitioner</li>
+                            <li>
+                                - AI100: Python Programming and Data
+                                Visualisation (Heicoders Academy Professionals)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className="mt-[500px] text-white text-5xl text-center">
+                    My Projects
                 </div>
                 <div className=""></div>
                 <div className="flex justify-center items-center">
-                    <div className="carousel carousel-center max-w-5xl p-4 space-x-4 rounded-box m-[75px]">
+                    <div className="carousel carousel-center max-w-5xl p-4 space-x-4 rounded-box mt-[20px] mx-[60px]">
                         <div className="carousel-item">
                             <img
                                 src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
@@ -222,10 +258,19 @@ const HomeScreen = () => {
                         </div>
                     </div>
                 </div>
+                <button
+                    onClick={handleClick}
+                    className="btn btn-neutral btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg block mx-auto my-[20px]"
+                >
+                    View all projects here
+                </button>
+            </section>
+            <section>
+                <div className="mt-[200px]"></div>
             </section>
             {/* <section>
                 <div className="m-[50px] text-center text-[30px]">
-                    I am always open to new opportunities to improve myself in
+                    I am always open to new opportunities in
                     the software engineering field. Drop your contact here!
                 </div>
             </section> */}
