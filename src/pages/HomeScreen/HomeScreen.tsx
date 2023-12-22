@@ -189,12 +189,125 @@ const HomeScreen = () => {
                     <div className="text-white font-black text-5xl">
                         My Skills
                     </div>
-                    <div className="text-[18px] text-start mt-2">
+                    {/* <div className="text-[18px] text-start mt-2">
                         I am constantly finding ways to upskill myself with
                         certifications, projects and new technologies. I'm
                         currently on the road to obtaining my AWS SAA cert!
+                    </div> */}
+                    <div className="mt-[40px] flex flex-wrap">
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                        />
+
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        />
+
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                        />
+
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px]"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                        />
+                        <img
+                            width="40px"
+                            height="40px"
+                            className="m-[5px] "
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                        />
                     </div>
-                    <div className="text-white font-black text-3xl mt-3">
+                    <div className="text-white font-black text-3xl mt-[50px]">
                         Certifications:
                     </div>
                     <div className="text-[18px] text-start mt-2">
@@ -210,17 +323,43 @@ const HomeScreen = () => {
             </section>
 
             <section>
-                <div className="mt-[500px] text-white text-5xl text-center">
+                <div className="mt-[300px] text-white text-5xl text-center">
                     My Projects
                 </div>
                 <div className=""></div>
                 <div className="flex justify-center items-center">
                     <div className="carousel carousel-center max-w-5xl p-4 space-x-4 rounded-box mt-[20px] mx-[60px]">
                         <div className="carousel-item">
-                            <img
-                                src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-                                className="rounded-box"
-                            />
+                            <div className="card w-96 bg-base-100 shadow-xl">
+                                <figure>
+                                    <img
+                                        src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                                        alt="Shoes"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">OpenJio</h2>
+                                    <p className="mb-[10px]">
+                                        Efficient and user-friendly platform to
+                                        discover and sign up for various events
+                                        around your campus.
+                                    </p>
+                                    <div className="card-actions justify-end">
+                                        <div className="badge badge-outline">
+                                            SpringBoot
+                                        </div>
+                                        <div className="badge badge-outline">
+                                            React
+                                        </div>
+                                        <div className="badge badge-outline">
+                                            Docker
+                                        </div>
+                                        <div className="badge badge-outline">
+                                            AWS
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="carousel-item">
                             <img
