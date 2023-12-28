@@ -1,7 +1,7 @@
 const NavBar = () => {
     return (
         <>
-            <div className="navbar bg-gray-800 sticky top-0 z-50">
+            <div className="navbar bg-gray-800 sticky top-0 z-50 outline-double outline-white">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl">A.T.</a>
                 </div>
