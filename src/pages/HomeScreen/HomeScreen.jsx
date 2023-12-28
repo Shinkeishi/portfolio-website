@@ -34,7 +34,7 @@ const HomeScreen = () => {
     return (
         <>
             <section>
-                <div className="flex flex-row justify-between items-center mt-[80px] mb-[500px] ml-[30px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
+                <div className="flex flex-row justify-between items-center mt-[280px] mb-[500px] ml-[30px] text-white font-black text-5xl animate-fade animate-once animate-duration-[1500ms] animate-ease-linear">
                     <div>
                         <span id="typed">Hi, I'm Ashley</span>
                         <br></br>
@@ -42,16 +42,15 @@ const HomeScreen = () => {
                             An aspiring software engineer based in Singapore
                         </div>
                     </div>
-                    <iframe
-                        className="m-[50px] w-[700px] h-[400px]"
-                        src="https://lottie.host/embed/d08bc92c-b782-4faf-b6d0-c5962283f53d/OlibfYLXG4.json"
-                    ></iframe>
                 </div>
             </section>
 
             <section>
                 <div className="my-[500px] mb-[10px] ml-[30px] text-white font-black text-5xl text-center">
                     About Me
+                </div>
+                <div className="text-[18px] mt-[10px]">
+                    An aspiring software engineer based in Singapore
                 </div>
             </section>
 
