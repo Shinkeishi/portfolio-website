@@ -30,7 +30,7 @@ const NavBar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:ashley.tan.2022@scis.smu.edu.sg?subject=Contact from Portfolio">
+                            <a href="mailto:ashley.tan.2022@scis.smu.edu.sg?subject=Contact from Portfolio Website">
                                 <svg
                                     className="swap-on fill-current w-[25px] h-[25px]"
                                     xmlns="http://www.w3.org/2000/svg"
