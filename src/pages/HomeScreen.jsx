@@ -97,11 +97,12 @@ const HomeScreen = () => {
                             Hey there! I'm Ashley Tan, a Year 2 Computer Science
                             student at Singapore Management University (SMU). My
                             journey in tech is driven by a passion for creating
-                            user-centric applications. What sets me apart is my
-                            dedication to continuous learning, I'm committed to
-                            honing my skills and learning something from
-                            everything I do. Discover more about my projects and
-                            connect with me!
+                            user-centric applications. My interests currently
+                            lie in Frontend, UI/UX and Cloud. What sets me apart
+                            is my dedication to continuous learning, I'm
+                            committed to honing my skills and learning something
+                            from everything I do. Discover more about my
+                            projects and connect with me!
                         </div>
                         <dotlottie-player
                             src="https://lottie.host/249389fd-fee0-49a8-a381-fbae2ad78175/J3d8dmSORz.json"
