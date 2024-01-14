@@ -15,11 +15,6 @@ const Skills = () => {
                 >
                     My Skills
                 </div>
-                {/* <div className="text-[18px] text-start mt-2">
-        I am constantly finding ways to upskill myself with
-        certifications, projects and new technologies. I'm
-        currently on the road to obtaining my AWS SAA cert!
-    </div> */}
                 <div
                     style={{ animationPlayState: "paused" }}
                     className="mt-[40px] flex flex-wrap animate animate-fade-right animate-once animate-duration-[1500ms]"
@@ -36,6 +31,14 @@ const Skills = () => {
                         className="m-[5px]"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     />
+
+                    <img
+                        width="40px"
+                        height="40px"
+                        className="m-[5px]"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    />
+
                     <img
                         width="40px"
                         height="40px"
@@ -132,8 +135,14 @@ const Skills = () => {
                     <img
                         width="40px"
                         height="40px"
-                        className="m-[5px] "
+                        className="m-[5px]"
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                    />
+                    <img
+                        width="40px"
+                        height="40px"
+                        className="m-[5px]"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                     />
                 </div>
                 <div

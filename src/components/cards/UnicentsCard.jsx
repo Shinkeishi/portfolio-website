@@ -1,7 +1,7 @@
 const UnicentsCard = () => {
     return (
         <div
-            className="hover:scale-105 transition duration-300 ease-in-out cursor-pointer mx-3"
+            className="hover:scale-105 transition duration-300 ease-in-out cursor-pointer m-5"
             onClick={() => document.getElementById("unicents").showModal()}
         >
             <div className="card w-[384px] h-[500px] bg-base-100 shadow-xl">

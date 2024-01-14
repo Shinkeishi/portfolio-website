@@ -1,7 +1,7 @@
 const HazardBuddyCard = () => {
     return (
         <div
-            className="carousel-item hover:scale-105 transition duration-300 ease-in-out cursor-pointer mx-3"
+            className="carousel-item hover:scale-105 transition duration-300 ease-in-out cursor-pointer mx-3 m-5"
             onClick={() => document.getElementById("hazardbuddy").showModal()}
         >
             <div className="card w-[384px] h-[500px] bg-base-100 shadow-xl">
