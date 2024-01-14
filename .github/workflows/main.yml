@@ -16,12 +16,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: latest
+          node-version: 18
       - name: Install dependencies
         run: npm install 
 
       - name: Build
-        run: npm run build # Replace with your build script if different
+        run: npm run build 
 
       - name: Deploy to GitHub Pages
         run: |
