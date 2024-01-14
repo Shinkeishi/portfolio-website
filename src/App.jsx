@@ -1,16 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomeScreen from "./pages/HomeScreen/HomeScreen.jsx";
+import HomeScreen from "./pages/HomeScreen.jsx";
 import NavBar from "./components/NavBar.jsx";
-import Projects from "./pages/Projects/Projects.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <HomeScreen />,
-    },
-    {
-        path: "/projects",
-        element: <Projects />,
     },
 ]);
 
