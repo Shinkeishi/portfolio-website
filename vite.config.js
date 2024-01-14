@@ -1,15 +1,10 @@
-const react = require("@vitejs/plugin-react");
+import react from "@vitejs/plugin-react";
 
-module.exports = {
+export default {
     plugins: [react()],
     build: {
         rollupOptions: {
-            external: ["react", "react-router", "react-router-dom"],
-            output: {
-                globals: {
-                    react: "React",
-                },
-            },
+            input: "src/main.jsx",
         },
     },
 };
