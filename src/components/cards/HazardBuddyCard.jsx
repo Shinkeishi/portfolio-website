@@ -1,3 +1,5 @@
+import hazardbuddy from "../../assets/hazardbuddy.png";
+
 const HazardBuddyCard = () => {
     return (
         <div
@@ -8,7 +10,7 @@ const HazardBuddyCard = () => {
                 <figure>
                     <img
                         className=""
-                        src="src/assets/hazardbuddy.png"
+                        src={hazardbuddy}
                         alt="Hazard Buddy Mobile Application"
                     />
                 </figure>

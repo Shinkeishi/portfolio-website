@@ -1,4 +1,6 @@
 import useIntersectionObserver from "../../useIntersectionObserver";
+import ellipsis from "../../assets/ellipsis.png";
+import dothack from "../../assets/dothack_transbg.png";
 
 const Experiences = () => {
     useIntersectionObserver(".animate", (target) => {
@@ -37,7 +39,7 @@ const Experiences = () => {
                         <div className="flex flex-col justify-center items-end">
                             <img
                                 className="h-[100px] flex-grow-0 object-contain m-3"
-                                src="src/assets/dothack_transbg.png"
+                                src={dothack}
                             ></img>
                             <div className="text-[28px] font-black">
                                 Professional Development Director - SMU .Hack
@@ -121,7 +123,7 @@ const Experiences = () => {
                         <div className="flex flex-col justify-center items-end">
                             <img
                                 className="h-[110px] flex-grow-0 object-contain m-3"
-                                src="src/assets/ellipsis.png"
+                                src={ellipsis}
                             ></img>
                             <div className="text-[28px] font-black">
                                 Corporate Relations Director - Metamorphosis

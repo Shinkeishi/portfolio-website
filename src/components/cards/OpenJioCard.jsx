@@ -1,3 +1,5 @@
+import openjio from "../../assets/openjio-home.png";
+
 const OpenJioCard = () => {
     return (
         <div
@@ -6,10 +8,7 @@ const OpenJioCard = () => {
         >
             <div className="card w-[384px] h-[500px] bg-base-100 shadow-xl">
                 <figure>
-                    <img
-                        src="src/assets/openjio-home.png"
-                        alt="OpenJio Web Application"
-                    />
+                    <img src={openjio} alt="OpenJio Web Application" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">OpenJio</h2>

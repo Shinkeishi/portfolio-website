@@ -1,3 +1,5 @@
+import unicents from "../../assets/unicents.png";
+
 const UnicentsCard = () => {
     return (
         <div
@@ -6,10 +8,7 @@ const UnicentsCard = () => {
         >
             <div className="card w-[384px] h-[500px] bg-base-100 shadow-xl">
                 <figure>
-                    <img
-                        src="src/assets/unicents.png"
-                        alt="Unicents Web Application"
-                    />
+                    <img src={unicents} alt="Unicents Web Application" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">Unicents</h2>

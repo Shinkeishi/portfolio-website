@@ -5,6 +5,7 @@ import Projects from "./sections/Projects.jsx";
 import Skills from "./sections/Skills.jsx";
 import Experiences from "./sections/Experiences.jsx";
 import useIntersectionObserver from "../useIntersectionObserver.jsx";
+import logo from "../assets/logo.png";
 
 const HomeScreen = () => {
     // const navigate = useNavigate();
@@ -160,11 +161,7 @@ const HomeScreen = () => {
                         <font></font>
                         <aside className="items-center grid-flow-col">
                             <font></font>
-                            <img
-                                width="40px"
-                                height="40px"
-                                src="src/assets/logo.png"
-                            ></img>
+                            <img width="40px" height="40px" src={logo}></img>
                             <font></font>
                             <p>
                                 Website designed and coded by me - Built with
